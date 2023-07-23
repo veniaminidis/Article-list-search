@@ -1,0 +1,92 @@
+{
+    "data": [
+      {
+        "type": "articles",
+        "id": "1",
+        "attributes": {
+          "title": "JSON:API paints my bikeshed!",
+          "body": "The shortest article. Ever."
+        },
+        "relationships": {
+          "author": {
+            "data": {
+              "id": "42",
+              "type": "people"
+            }
+          }
+        }
+      },
+      {
+        "type": "articles",
+        "id": "1",
+        "attributes": {
+          "title": "The Importance of Cybersecurity in a Digital World",
+          "body": "In today's interconnected world, cybersecurity plays a vital role in protecting sensitive information and preventing cyber threats. This article explores the significance of cybersecurity measures, such as encryption, firewalls, and secure authentication methods. It also discusses the growing importance of cybersecurity awareness and best practices for individuals and organizations to safeguard their digital assets from cyber attacks."
+        },
+        "relationships": {
+          "author": {
+            "data": {
+              "id": "42",
+              "type": "people"
+            }
+          }
+        }
+      },
+      {
+        "type": "articles",
+        "id": "2",
+        "attributes": {
+          "title": "Artificial Intelligence: Revolutionizing Industries",
+          "body": "Artificial Intelligence (AI) is transforming various industries, including healthcare, finance, manufacturing, and transportation. This article delves into the applications of AI, such as machine learning, natural language processing, and computer vision. It explores how AI is streamlining processes, enhancing decision-making, and driving innovation. Additionally, it discusses the ethical considerations and future potential of AI in shaping our society."
+        },
+        "relationships": {
+          "author": {
+            "data": {
+              "id": "43",
+              "type": "people"
+            }
+          }
+        }
+      },
+      {
+        "type": "articles",
+        "id": "3",
+        "attributes": {
+          "title": "The Power of Renewable Energy Sources",
+          "body": "Renewable energy sources, such as solar, wind, and hydroelectric power, are playing a crucial role in combating climate change and transitioning to a sustainable future. This article explores the benefits of renewable energy, including reduced greenhouse gas emissions, energy independence, and job creation. It discusses the advancements in renewable technologies, government incentives, and the importance of global cooperation to accelerate the adoption of clean energy sources."
+        },
+        "relationships": {
+          "author": {
+            "data": {
+              "id": "44",
+              "type": "people"
+            }
+          }
+        }
+      }
+    ],
+    "included": [
+      {
+        "type": "people",
+        "id": "42",
+        "attributes": {
+          "name": "John"
+        }
+      },
+      {
+        "type": "people",
+        "id": "43",
+        "attributes": {
+          "name": "Emily"
+        }
+      },
+      {
+        "type": "people",
+        "id": "44",
+        "attributes": {
+          "name": "David"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,10 @@
+<header>
+    <h2>Article List</h2>
+</header>
+<div id="content">
+    <input id="searchbox" type="text" placeholder="Search by keyword" (input)="onSearch($event)">
+    <ul>
+        <li *ngFor="let article of articles"><p>{{ article.title }}</p> <div id="article-body"><p>{{ article.body }}</p></div></li>
+        <!-- <li *ngFor="let article of articles">{{ article.body }}</li> -->
+      </ul>
+</div>
